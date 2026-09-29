@@ -2,6 +2,9 @@
 Context-aware AI customer support agent using Vectorize Hindsight persistent memory and Groq LLM inference.
 <div align="center">
 
+  <!-- 🛑 PLACE YOUR MAIN LOGO OR BANNER HERE -->
+  <img src="YOUR_BANNER_IMAGE_URL_HERE.png" alt="Project Banner" width="100%" />
+  
   # 🎧 Memory-Augmented Support Agent
   
   **Transforming customer support by eliminating amnesia using Vectorize Hindsight and Google Gemini.**
@@ -30,16 +33,20 @@ Customer support is the heartbeat of customer trust and loyalty, yet traditional
 
 ## ✨ The Solution: AI That Remembers & Adapts
 
-Our **Memory-Augmented Support Agent** uses **Vectorize Hindsight** and **Google Gemini** to evolve from a generic, stateless chatbot into an intelligent, stateful companion. By embedding a persistent memory layer with over 24,000 ingested historical support memories[cite: 9], we instantly route past context directly into the AI's prompt.
+Our **Memory-Augmented Support Agent** uses **Vectorize Hindsight** and **Google Gemini** to evolve from a generic, stateless chatbot into an intelligent, stateful companion. By embedding a persistent memory layer with over 24,000 ingested historical support memories, we instantly route past context directly into the AI's prompt.
 
-1. **Retains Full Context:** The agent instantly recalls past tickets, hardware environments, and previous resolutions via Hindsight's retrieval API[cite: 6].
-2. **Dynamic Customer Simulation:** Our Streamlit interface allows testers to simulate different customers (e.g., "Alex" or "Jane Doe") to see how the agent alters its response based on their unique history[cite: 4, 6].
-3. **Accelerates Fixes:** The LLM bypasses basic triage and jumps straight to advanced troubleshooting by analyzing previous failed steps[cite: 5].
+1. **Retains Full Context:** The agent instantly recalls past tickets, hardware environments, and previous resolutions via Hindsight's retrieval API.
+2. **Dynamic Customer Simulation:** Our Streamlit interface allows testers to simulate different customers to see how the agent alters its response based on their unique history.
+3. **Accelerates Fixes:** The LLM bypasses basic triage and jumps straight to advanced troubleshooting by analyzing previous failed steps.
 
 <div align="center">
-  <!-- 🛑 PLACE YOUR MAIN DEMO VIDEO OR GIF LINK BELOW -->
-  <img src="YOUR_MAIN_DEMO_VIDEO_URL_HERE.gif" alt="Agent Recalling Past Interactions" width="85%" />
-  <p><em>Watch the agent instantly recall a user's previous ticket and adapt its troubleshooting steps.</em></p>
+  <h3>🖥️ Live Chat Interface</h3>
+  <img src="WhatsApp Image 2026-09-29 at 7.08.38 AM.jpeg" alt="Streamlit Chat Interface" width="85%" />
+  
+  <br><br>
+  
+  <h3>🧠 Hindsight Memory Engine</h3>
+  <img src="WhatsApp Image 2026-09-29 at 7.06.19 AM.jpeg" alt="Hindsight Dashboard showing 24k memories" width="85%" />
 </div>
 
 ---
@@ -64,8 +71,8 @@ The shift from generic to personalized is what makes memory the centerpiece of o
       <h3>✅ With Hindsight (Our Solution)</h3>
       <p><em>Recalls context, adapts intelligently, and solves problems faster.</em></p>
       <ul>
-        <li>Cross-references current complaints with historical `ticket_id` data[cite: 6].</li>
-        <li>Knows exactly what API issues the user faced previously[cite: 5].</li>
+        <li>Cross-references current complaints with historical ticket data.</li>
+        <li>Knows exactly what API issues the user faced previously.</li>
       </ul>
       <!-- 🛑 PLACE YOUR "HINDSIGHT MEMORY" DEMO VIDEO/GIF BELOW -->
       <img src="YOUR_MEMORY_DEMO_URL_HERE.gif" alt="With Memory" width="100%" />
