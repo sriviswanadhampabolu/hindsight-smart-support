@@ -2,16 +2,14 @@
 Context-aware AI customer support agent using Vectorize Hindsight persistent memory and Groq LLM inference.
 <div align="center">
 
-  <!-- 🛑 PLACE YOUR APPLICATION LOGO / BANNER IMAGE LINK BELOW -->
-  <img src="YOUR_LOGO_IMAGE_URL_HERE.png" alt="Project Banner" width="100%" />
+  # 🎧 Memory-Augmented Support Agent
   
-  # 🎧 SupportSync AI: The Agent That Remembers
-  
-  **Ending the "Please repeat your issue" era of customer support using Vectorize Hindsight[cite: 2].**
+  **Transforming customer support by eliminating amnesia using Vectorize Hindsight and Google Gemini.**
 
   [![Built for](https://img.shields.io/badge/Hackathon-Vectorize_Hindsight-blueviolet)](#)
   [![Memory Engine](https://img.shields.io/badge/Memory-Hindsight_Cloud-brightgreen)](#)
-  [![LLM Inference](https://img.shields.io/badge/Powered_by-Groq_%7C_Qwen3-ff69b4)](#)
+  [![LLM Inference](https://img.shields.io/badge/Powered_by-Google_Gemini-ff69b4)](#)
+  [![Frontend](https://img.shields.io/badge/UI-Streamlit-red)](#)
 
 </div>
 
@@ -19,44 +17,44 @@ Context-aware AI customer support agent using Vectorize Hindsight persistent mem
 
 ## 💡 The Broken State of Customer Support
 
-Customer support is the heartbeat of customer trust and loyalty, yet traditional chatbots fail because they forget[cite: 2]. When customers reach out, they are treated like strangers and forced to re-explain their past tickets and known issues[cite: 2].
+Customer support is the heartbeat of customer trust and loyalty, yet traditional chatbots fail because they forget. When customers reach out, they are treated like strangers and forced to re-explain their past tickets and known issues.
 
 **The Cost of Forgetting:**
-- 🔁 **The Amnesia Loop:** Customers explaining the same issue multiple times[cite: 2].
-- ⏳ **Wasted Time:** Agents wasting valuable minutes digging through past records[cite: 2].
-- 🛑 **Resolution Delays:** Delays in resolution because past fixes are not recalled[cite: 2].
+- 🔁 **The Amnesia Loop:** Customers waste time explaining the exact same issue multiple times.
+- ⏳ **Wasted Time:** Support teams lose valuable minutes digging through fragmented CRM records.
+- 🛑 **Resolution Delays:** Tickets escalate unnecessarily because past troubleshooting steps and fixes are not recalled.
 
-> *"Nothing angers a customer more than repeating their story. An agent with full customer memory transforms the entire support experience[cite: 2]."*
+> *"Nothing angers a customer more than repeating their story. An agent with full customer memory transforms the entire support experience."*
 
 ---
 
 ## ✨ The Solution: AI That Remembers & Adapts
 
-SupportSync uses **Vectorize Hindsight** to evolve from a generic chatbot into an intelligent companion[cite: 2]. By embedding a persistent memory layer, we completely reshape how businesses interact with their users[cite: 2].
+Our **Memory-Augmented Support Agent** uses **Vectorize Hindsight** and **Google Gemini** to evolve from a generic, stateless chatbot into an intelligent, stateful companion. By embedding a persistent memory layer with over 24,000 ingested historical support memories[cite: 9], we instantly route past context directly into the AI's prompt.
 
-1. **Retains Full Context:** Recalls past tickets, hardware environments, and previous resolutions[cite: 2].
-2. **Reads the Room:** Adapts tone dynamically based on the user's tracked frustration levels[cite: 2].
-3. **Accelerates Fixes:** Learns from past fixes to suggest faster, proven solutions[cite: 2].
+1. **Retains Full Context:** The agent instantly recalls past tickets, hardware environments, and previous resolutions via Hindsight's retrieval API[cite: 6].
+2. **Dynamic Customer Simulation:** Our Streamlit interface allows testers to simulate different customers (e.g., "Alex" or "Jane Doe") to see how the agent alters its response based on their unique history[cite: 4, 6].
+3. **Accelerates Fixes:** The LLM bypasses basic triage and jumps straight to advanced troubleshooting by analyzing previous failed steps[cite: 5].
 
 <div align="center">
   <!-- 🛑 PLACE YOUR MAIN DEMO VIDEO OR GIF LINK BELOW -->
   <img src="YOUR_MAIN_DEMO_VIDEO_URL_HERE.gif" alt="Agent Recalling Past Interactions" width="85%" />
-  <p><em>Watch the agent instantly recall a user's previous ticket and adapt its tone based on prior frustration.</em></p>
+  <p><em>Watch the agent instantly recall a user's previous ticket and adapt its troubleshooting steps.</em></p>
 </div>
 
 ---
 
 ## ⚡ The Hindsight Difference (Before & After)
 
-The shift from generic to personalized is what makes memory the centerpiece of our innovation[cite: 2].
+The shift from generic to personalized is what makes memory the centerpiece of our architecture.
 
 <table width="100%">
   <tr>
     <td width="50%">
       <h3>❌ Without Memory (Standard Agent)</h3>
-      <p><em>Gives the same canned response to everyone[cite: 2].</em></p>
+      <p><em>Gives the same canned response to everyone.</em></p>
       <ul>
-        <li>Asks repetitive baseline questions.</li>
+        <li>Asks repetitive baseline questions ("What is your API key issue?").</li>
         <li>Suggests generic troubleshooting steps the user already tried.</li>
       </ul>
       <!-- 🛑 PLACE YOUR "STATELESS" DEMO VIDEO/GIF BELOW -->
@@ -64,10 +62,10 @@ The shift from generic to personalized is what makes memory the centerpiece of o
     </td>
     <td width="50%">
       <h3>✅ With Hindsight (Our Solution)</h3>
-      <p><em>Recalls context, adapts intelligently, and solves problems faster[cite: 2].</em></p>
+      <p><em>Recalls context, adapts intelligently, and solves problems faster.</em></p>
       <ul>
-        <li>Instantly loads past ticket data and skips failed solutions.</li>
-        <li>Changes tone to empathetic based on tracked frustration scores.</li>
+        <li>Cross-references current complaints with historical `ticket_id` data[cite: 6].</li>
+        <li>Knows exactly what API issues the user faced previously[cite: 5].</li>
       </ul>
       <!-- 🛑 PLACE YOUR "HINDSIGHT MEMORY" DEMO VIDEO/GIF BELOW -->
       <img src="YOUR_MEMORY_DEMO_URL_HERE.gif" alt="With Memory" width="100%" />
@@ -77,24 +75,18 @@ The shift from generic to personalized is what makes memory the centerpiece of o
 
 ---
 
-## 📈 Real-World Business Impact
-
-This is not just a hackathon demo; it is a real-world solution designed to drive measurable ROI for support teams[cite: 2]:
-
-* **Cost Reduction:** Reduced escalations lighten the load on human agents[cite: 2].
-* **Increased CSAT:** Faster resolutions directly boost customer satisfaction[cite: 2].
-* **Brand Reputation:** Personalized service strengthens user loyalty and long-term retention[cite: 2].
-
----
-
 ## 🏗️ System Architecture & Data Flow
+
+Our system seamlessly connects a massive repository of simulated support data to a real-time conversational interface. 
 
 ```mermaid
 graph TD
-    A[User Chat Interface] -->|User Message| B(Application Backend)
-    B --> C{Vectorize Hindsight}
-    C -->|Extracts Entities / Sentiment| D[(Memory Profile)]
-    D -->|Retrieves History & Frustration Level| C
-    C -->|Context-Rich Prompt| E[Groq Inference Engine]
+    A[Streamlit Web UI] -->|User Name & Issue| B(Python Backend app.py)
+    B --> C{Vectorize Hindsight Client}
+    C -->|Query customer_support_bank| D[(Memory Store: 24.5k+ Records)]
+    D -->|Retrieves past tickets & metadata| C
+    C -->|Context-Augmented Prompt| E[Google Gemini GenAI]
     E -->|Personalized Resolution| B
-    B -->|Streams Output| A
+    B -->|Displays Chat Output| A
+    
+    F[Webhook / n8n Pipelines] -.->|Ingests Data| D
