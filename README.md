@@ -41,12 +41,14 @@ Our **Memory-Augmented Support Agent** uses **Vectorize Hindsight** and **Google
 
 <div align="center">
   <h3>🖥️ Live Chat Interface</h3>
-  <img src="WhatsApp Image 2026-09-29 at 7.08.38 AM.jpeg" alt="Streamlit Chat Interface" width="85%" />
+  <img src="<img width="1600" height="865" alt="WhatsApp Image 2026-09-29 at 7 08 38 AM" src="https://github.com/user-attachments/assets/ae35b848-8109-46d4-b945-c42435b4c4b6" />
+" alt="Streamlit Chat Interface" width="85%" />
   
   <br><br>
   
   <h3>🧠 Hindsight Memory Engine</h3>
-  <img src="WhatsApp Image 2026-09-29 at 7.06.19 AM.jpeg" alt="Hindsight Dashboard showing 24k memories" width="85%" />
+  <img src="<img width="1600" height="861" alt="WhatsApp Image 2026-09-29 at 7 06 19 AM" src="https://github.com/user-attachments/assets/8787b987-cd86-46f3-a880-5ac31415348d" />
+" alt="Hindsight Dashboard showing 24k memories" width="85%" />
 </div>
 
 ---
